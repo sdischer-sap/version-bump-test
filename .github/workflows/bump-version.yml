@@ -2,7 +2,7 @@
 name: bump version
 on:
   repository_dispatch:
-    types: [ bump-generate-command ]
+    types: [ bump-version-command ]
 
 permissions:
   contents: write
