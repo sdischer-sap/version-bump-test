@@ -11,5 +11,5 @@ permissions:
 
 jobs:
   generate:
-    uses: sdischer-sap/.workflows/.github/workflows/bump-version.yaml@1.0.1
+    uses: sdischer-sap/.workflows/.github/workflows/bump-version.yaml@1.0.2
     secrets: inherit
