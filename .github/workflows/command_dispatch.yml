@@ -5,5 +5,5 @@ on:
     types: [ created, edited ]
 jobs:
   slashCommandDispatch:
-    uses: sdischer-sap/.workflows/.github/workflows/dispatch-slash-commands.yaml@1.0.0
+    uses: sdischer-sap/.workflows/.github/workflows/dispatch-slash-commands.yaml@1.0.1
     secrets: inherit
